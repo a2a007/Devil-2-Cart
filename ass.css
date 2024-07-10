@@ -1,0 +1,70 @@
+{
+    font-family: 'Times New Roman', Times, serif;
+    margin:0 ;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(63, 16, 72),black);
+    width: 100px;}
+form{
+    border: 1em;
+    border-radius: 6%;
+    width: 500px;
+    height: 300px;
+    padding: 100 60;
+    color: azure;
+    width: 500px;
+    height: 300px;
+    padding: 100 60;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+h3{
+    text-align: center;
+   font-family: sans-serif;
+    color: azure;
+    font-size: 30px;
+}
+.textboxdiv{
+    position: relative;
+    margin: 12px 0;
+}
+.textboxdiv input{
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.password{
+    position: relative;
+    left:35%
+}
+.login{
+    height:45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: rgb(126, 50, 125);
+    color: white;
+    font-size: 16px;
+}
+a:link {
+    color: azure;
+    text-decoration: underline;
+
+}
+.login:hover{
+    background-position: right;
+    font-size: 18px;
+    cursor: pointer;
+}
+.remember{
+    font-size: 20px;
+}
+.form{
+    opacity: 0.1;
+}

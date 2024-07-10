@@ -1,0 +1,84 @@
+#head {
+    background-color: black;
+    display:flex;
+    align-items: center ;
+    justify-content: space-between;
+    padding: 20px 80px ;
+    background-color: rgb(33, 7, 38);
+    box-shadow: grey;
+    z-index: 999;
+    position:sticky;
+    align-items: center;
+    flex-direction: column;
+    display:flex;
+    align-items: flex-start;
+    justify-content: top;
+    top:0;
+    left:0;
+}
+.button{
+    background-color: black;
+    font-family: mv boli;
+}
+#nag {
+    display:flex;
+    align-items: center ;
+    justify-content: left;
+}
+#nag li{
+    list-style: none;
+    padding:0 20px;
+    font-size:16px;
+    font-weight: 600;
+}
+#nag li a{
+    text-decoration: none;
+    font-family:sans-serif;
+    color: azure;
+}
+#nag li a:hover{
+    color:rgb(185, 161, 185);
+    ;
+}
+h2,h4{
+    color: silver;
+    font: sans-serif;
+}
+#lay1{
+    background-image:url("student2.jpg");
+    height: 90vh;
+    width: 86.7%;
+    background-size: cover;
+    background-position: top right 0%;
+    padding: 0px 79px;
+    align-items: center;
+    flex-direction: column;
+    display:flex;
+    align-items: flex-start;
+    justify-content: top;
+
+}
+.section-p1{
+    padding: 40px 80px ;
+    display: flex;
+    background-color: rgb(33, 7, 38);
+}
+.hh{
+    text-align: center;
+    font-family:cursive ;
+    color: azure;
+}
+#fe-1{
+    width: auto;
+    height:auto;
+    text-align: center;
+    padding:25px 15px;
+    margin-left: 100px;
+    background-color:black;
+    color:white;
+    font-family:cursive;
+}
+#fe-1:hover
+{
+    box-shadow: 10px 10px 10px rgb(120, 116, 120) ;
+}
