@@ -9,7 +9,7 @@
     z-index: 999;
     position:sticky;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     display:flex;
     align-items: flex-start;
     justify-content: top;
