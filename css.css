@@ -55,7 +55,7 @@ h2,h4{
     flex-direction: column;
     display:flex;
     align-items: flex-start;
-    justify-content: top;
+    justify-content: center;
 
 }
 .section-p1{
@@ -81,4 +81,10 @@ h2,h4{
 #fe-1:hover
 {
     box-shadow: 10px 10px 10px rgb(120, 116, 120) ;
+}
+.footer{
+    color: azure;
+    font-family: cursive;
+    background-color:black;
+    border-radius: 20%;
 }
